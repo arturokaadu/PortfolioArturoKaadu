@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@200&family=Roboto+Slab:wght@300&display=swap');
+
+
+
+.navelements{
+font-family: 'Montserrat', sans-serif;
+font-weight: bolder;
+font-size: 20px;
+}
+
+.mifoto {
+    height: 50%;
+    width: 70%;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.apersonalizado{
+    text-decoration: none;
+    font-family: 'Roboto Slab', 'sans-serif';
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    
+
+}
+
+a:hover{
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.adobe{
+    display:inline-block;
+    height: 60px;
+    
+    
+}
+
+#fondo{
+    margin:0px;
+    padding: 0px;
+    background-image: url('../Imagenes/nordic\ background.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactpers{
+    background-color: rgb(197, 197, 197);
+    border-radius: 5px;
+    
+}
+
+.container{
+    padding: 100px
+}
+
+.lines{
+    width: 100%;
+    height: 45px;
+    position: relative;
+    
+}
+
+.lines::after{ 
+    content:'';
+    position:absolute;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    width: 100%;
+    top: 100%; 
+
+}
+
+h2{
+    font-family:'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #ffff;
+    
+}
+
+h3{
+    color: #99CC99;
+    font-family: 'Roboto Slab', 'sans-serif';
+    font-weight: bolder;
+}
+
+.cardpers{
+    color:#666666
+}
+
+p{
+    font-weight: bold;
+    font-family:'Roboto Slab', 'sans-serif';
+}
+
+ul li {
+    font-family: 'Roboto Slab', 'sans-serif';
+    font-weight: bold;
+}
+
+.icons{
+   
+    color: cornsilk;
+    text-decoration: none;
+    
+}
+
+.otrosp{
+    color: #99CC99;
+  
+}
